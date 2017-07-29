@@ -1,0 +1,24 @@
+[user]
+	email = jastka4@gmail.com
+	name = Justyna Skalska
+[alias]
+	b = branch --list
+	rb = branch -r
+	s = status -s
+	cm = commit
+	amf = commit -C HEAD --amend
+	co = checkout
+	la = config --get-regexp alias
+	filelog = log -u
+	fl = log -u
+	last = log -1 HEAD
+	glog = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	publish = !git push -u origin $(git branch-name)
+	unpublish = !git push origin :$(git branch-name)
+	branch-name = !git rev-parse --abbrev-ref HEAD
+[core]
+	editor = nvim
+[url "git@github.com:"]
+	insteadOf = github:
+[url "https://github.com/"]
+	insteadOf = hgithub:
