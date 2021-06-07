@@ -17,7 +17,7 @@
 	unpublish = !git push origin :$(git branch-name)
 	branch-name = !git rev-parse --abbrev-ref HEAD
 [core]
-	editor = nvim
+	editor = vim
 [url "git@github.com:"]
 	insteadOf = github:
 [url "https://github.com/"]
