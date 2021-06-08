@@ -4,7 +4,11 @@
 
 > :bulb: Install WSL2 when running Windows 10. You can find a guide [here](https://docs.microsoft.com/pl-pl/windows/wsl/install-win10). Also, install the  [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) that you can download from the Microsoft Store.
 
-### 1. Install Oh My Zsh!
+### 1. Install Zsh
+
+Use the following [instructions](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH).
+
+### 2. Install Oh My Zsh!
 
 You can access the installation guide [here](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH).
 
@@ -12,7 +16,7 @@ You can access the installation guide [here](https://github.com/ohmyzsh/ohmyzsh/
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
-### 2. Install Powerlevel10k
+### 3. Install Powerlevel10k
 
 Use the following command:
 
